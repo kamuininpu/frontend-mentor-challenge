@@ -1,0 +1,13 @@
+body {
+    background-color: rgb(31, 30, 39);
+    height: 100vh;
+}
+
+a img {
+    width: 45vw;
+    height: 45vh;    
+}
+
+a img:hover {
+    box-shadow: 0 0 20px rgb(8, 235, 204);
+}

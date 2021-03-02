@@ -1,0 +1,114 @@
+@font-face{
+    font-family: "Kumbh Sans";
+    src: url("../fuentes/KumbhSans-Regular.ttf");
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    margin-top: 90vh;    
+    position: absolute;
+    margin-left: 1vw;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%); 
+}
+
+body {    
+    background-color:  hsl(185, 75%, 39%);
+    background-image: url('./../images/bg-pattern-top.svg'), url('./../images/bg-pattern-bottom.svg');
+    background-repeat: no-repeat;
+    font-family: Kumbh Sans;
+    background-position: right 53vw top -100vh, left 42vw top 50vh;
+    background-size: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.card {   
+    background-image: url('../images/bg-pattern-card.svg');    
+    background-size: 90%;
+    border-bottom: 200px solid white;   
+    border-radius: 5%;
+    height: 100px;
+    width: 280px;
+    margin-left: 1vw;      
+    margin-top: 20vh;
+    z-index: 3;
+    box-shadow: 0 0 10px rgba(56, 90, 88, 0.349);
+}
+
+.card-header {       
+    padding: 20px;       
+    display: flex;
+    justify-content: center;
+} 
+
+.card-footer div {
+    float: left;    
+}
+
+.card-header__imagen-user {
+    border-radius: 50%;
+    border: 5px solid white;
+    margin-top: 10%;
+    margin-right: 10%;    
+}
+
+.texto {    
+    padding: 20px;
+    text-align: center;
+    margin-top: -20px;
+    border-bottom: 1px solid rgb(206, 196, 196);
+}
+
+.card-header img {
+    margin-left: 20px;
+}
+
+.black {
+    font-weight: 600;    
+}
+
+.age {
+    color: gray;   
+    margin-left: 5px; 
+}
+
+.city {
+    color: gray;
+    font-size: small;
+    margin-top: 5px;    
+}
+
+.likes {
+    color: gray;
+    font-size: x-small;
+    margin-top: 5px;    
+}
+
+.text-center {
+    text-align: center;
+    padding: 10px;
+    margin-left: 25px;
+}
+
+.circulo-top {
+    width: 800px;
+    height: 800px;    
+    margin-left: -200px;
+    margin-top: -400px;
+    z-index: 1;
+}
+
+.circulo-bottom {
+    width: 800px;
+    height: 800px;    
+    margin-top: 250px;
+    margin-left: 600px;   
+    z-index: 2;
+}

@@ -1,0 +1,351 @@
+@font-face{
+    font-family: "Kumbh Sans";
+    src: url("../fuentes/KumbhSans-Regular.ttf");    
+}
+.attribution {
+     font-size: 11px; 
+     text-align: center; 
+     margin-top: 85vh;     
+     width: 100%;
+     position: absolute;
+}
+.attribution a { color: whitesmoke; }
+
+body {
+    background-image: linear-gradient(to top,hsl(240, 73%, 65%),hsl(273, 75%, 66%));
+    height: 100vh;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Kumbh Sans",Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+}
+
+.card {        
+    overflow: hidden; 
+    z-index: 3;  
+    height: 400px;
+    width: 780px;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute; 
+    box-shadow: 0 0 15px rgb(82, 77, 77);  
+}
+
+.imagen {
+    background-image:  url('./../images/illustration-woman-online-desktop.svg'), url('./../images/bg-pattern-desktop.svg');     
+    background-repeat: no-repeat, no-repeat;
+    display: flex;    
+    align-content: center;
+    height: 500px;
+    width: 800px;
+    background-position: bottom 8vw right 34vw , bottom -3vw right 34vw;    
+    background-size: 400px, 730px;
+}
+
+.faq {
+    padding: 20px;     
+    max-width: 250px;      
+    margin-left: 340px;  
+    position: absolute;   
+}
+
+.faq span {
+    color: hsl(237, 12%, 33%);
+    font-size: 10px;    
+}
+
+.hidden {
+    display: none;
+}
+
+p {
+    font-size: 12px;
+    color: hsl(240, 6%, 50%);
+    margin-bottom: 17px;
+    font-weight: 600;
+    width: 270px;       
+}
+
+.bold {
+    color: black;
+    font-weight: 700;
+}
+
+p:hover {
+    color: hsl(14, 88%, 65%);   
+    cursor: pointer;
+}
+
+hr {    
+    border: none;    
+    height: 1px;    
+    background-color: hsl(240, 5%, 91%);
+}
+
+.arrow-up {
+    transform: rotate(-180deg);
+}
+
+.flecha {
+    float: right;
+}
+
+.caja-arroba {
+    margin-top: 9vh;
+    margin-right: 65vw;
+    z-index: 4;
+}
+
+.imagen-mobile {
+    display: none;
+}
+
+@media screen and (max-width: 951px){
+    
+    .card {        
+        overflow: hidden; 
+        z-index: 3;  
+        height: 400px;
+        width: 780px;
+        background-color: white;
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute; 
+        box-shadow: 0 0 15px rgb(82, 77, 77);  
+    }
+    
+    .imagen {
+        background-image:  url('./../images/illustration-woman-online-mobile.svg'), url('./../images/bg-pattern-mobile.svg');     
+        background-repeat: no-repeat, no-repeat;
+        display: flex;    
+        align-content: center;
+        height: 500px;
+        width: 800px;
+        background-position: bottom 9vw right 45vw , bottom 1vh right 45vw;    
+        background-size: 400px, 400px;
+    }
+
+    .faq {
+        padding: 20px;     
+        max-width: 250px;      
+        margin-left: 340px;  
+        position: absolute;   
+    }
+
+    .caja-arroba {
+        margin-top: 5vw;
+        margin-right: 71vw;
+        z-index: 0;
+    }
+
+    .attribution {
+        font-size: 11px; 
+        text-align: center; 
+        margin-top: 90vh;     
+        width: 100%;
+        position: absolute;
+   }   
+
+   .imagen-mobile {
+    display: none;
+   }
+   
+}
+
+
+@media screen and (max-width: 775px){
+    
+    .card {        
+        overflow: hidden; 
+        z-index: 3;  
+        height: 500px;
+        width: 400px;
+        background-color: white;
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute; 
+        margin-top: 60vh; 
+        box-shadow: 0 0 15px rgb(82, 77, 77);         
+    }
+    
+    .imagen {       
+       display: none; 
+    }
+
+    .faq {
+        padding: 20px;     
+        max-width: 250px;      
+        margin-left: 1vw;  
+        position: absolute;   
+    }
+
+    .caja-arroba {       
+        display: none;
+    }
+
+    .attribution {
+        font-size: 11px; 
+        text-align: center; 
+        margin-top: 190vh;     
+        width: 100%;
+        position: absolute;    
+        padding-bottom: 30px;    
+   }
+
+   .imagen-mobile {
+        display: flex;
+        z-index: 4;        
+   }
+
+   .img-woman {
+        margin-top: -22vh;
+        margin-left: -3vh;
+        position: absolute;
+   }
+
+   .shadow {
+        margin-top: -18vh;   
+        margin-left: 1vw; 
+   }
+}
+
+
+
+@media screen and (max-width: 410px){
+    
+    .card {        
+        overflow: hidden; 
+        z-index: 3;  
+        height: 500px;
+        width: 350px;
+        background-color: white;
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute; 
+        margin-top: 60vh;  
+        box-shadow: 0 0 15px rgb(82, 77, 77);        
+    }
+    
+    .imagen {       
+       display: none; 
+    }
+
+    .faq {
+        padding: 20px;     
+        max-width: 250px;      
+        margin-left: 1vw;  
+        position: absolute;   
+    }
+
+    .caja-arroba {       
+        display: none;
+    }
+
+    .attribution {
+        font-size: 11px; 
+        text-align: center; 
+        margin-top: 190vh;     
+        width: 100%;
+        position: absolute;    
+        padding-bottom: 30px;    
+   }
+
+   .imagen-mobile {
+        display: flex;
+        z-index: 4;        
+   }
+
+   .img-woman {
+        margin-top: -22vh;
+        margin-left: -3vh;
+        position: absolute;
+   }
+
+   .shadow {
+        margin-top: -18vh;   
+        margin-left: 1vw; 
+   }
+}
+
+
+
+@media screen and (max-width: 375px){
+
+    body {
+        background-image: linear-gradient(to top,hsl(240, 73%, 65%),hsl(273, 75%, 66%));
+        background-size: 100%;
+        background-repeat: no-repeat;
+        height: 740px;    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: "Kumbh Sans",Arial, Helvetica, sans-serif;
+    }
+    
+    .card {        
+        overflow: hidden; 
+        z-index: 3;  
+        height: 500px;
+        width: 310px;
+        background-color: white;
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute; 
+        margin-top: -5vh;      
+        box-shadow: 0 0 15px rgb(82, 77, 77);  
+    }
+    
+    .imagen {       
+       display: none; 
+    }
+
+    .faq {
+        padding: 20px;     
+        max-width: 250px;      
+        margin-left: 1vw;  
+        position: absolute;   
+    }
+
+    .caja-arroba {       
+        display: none;
+    }
+
+    .attribution {
+        font-size: 11px; 
+        text-align: center; 
+        margin-top: 120vh;     
+        width: 100%;
+        position: absolute;    
+        padding-bottom: 30px;    
+   }
+
+   .imagen-mobile {
+        display: flex;
+        z-index: 4;        
+   }
+
+   .img-woman {
+        margin-top: -55vh;
+        margin-left: -3vh;
+        position: absolute;
+   }
+
+   .shadow {
+        margin-top: -87vh;   
+        margin-left: 1vw; 
+   }
+}
+
+

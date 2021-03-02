@@ -1,0 +1,214 @@
+@font-face {
+    font-family: Spartan ;
+    src: url('./../fuente/static/Spartan-Regular.ttf');
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    margin-top: 10vh;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+    
+body {
+    font-family: Spartan;
+    background-color: hsl(0, 0%, 100%);
+}
+
+
+.section-superior {
+    display: flex;  
+    justify-content: center;  
+}
+
+.section-superior article {
+    width: 450px;
+    margin-right: 15vw;    
+}
+
+.section-superior article h1 {
+    color:  hsl(300, 43%, 22%);
+    font-size: 35px;    
+    font-weight: 900;
+    width: 300px;
+}
+
+.stars {
+    margin-top: 4vh;
+}
+
+.section-superior article p {
+    color: hsl(303, 10%, 53%);
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.stars p {
+    width: 300px;
+    color:  hsl(300, 43%, 22%);
+    font-size: 12px;
+    font-weight: 700;
+    background-color: hsl(300, 24%, 96%);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.stars p span {
+    margin-left: 1vw;
+}
+
+.stars p img {
+    height: 12px;
+}
+
+#review {
+    margin-left: -9vw;
+}
+
+#report {
+    margin-left: -6vw;
+}
+
+#best {
+    margin-left: -3vw;
+}
+
+.cards {
+    margin-top: 10vh;
+    display: flex;
+    justify-content: center;        
+}
+
+.cards .card p {
+    font-size: 11px;
+}
+
+.cards .card {
+    background-color: hsl(300, 43%, 22%);
+    width: 250px;    
+    padding: 30px;
+    margin-left: 2vw;
+    border-radius: 10px;
+    height: 120px;
+}
+
+.cards .card span {
+    color: hsl(333, 80%, 67%);
+    font-size: 11px;
+    margin-left: 47px;
+}
+
+.cards .card .nombre {
+    color: hsl(300, 24%, 96%);
+    font-size: 11px;  
+    margin-left: 47px;  
+}
+
+.cards .card .mensaje {
+    color: hsl(300, 24%, 96%);   
+    margin-top: 2vh;
+}
+
+.cards .card img {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin-right: 1vw;
+    margin-top: 0vh;
+    position: absolute;
+}
+
+#irene {
+    margin-top: 2vh;
+}
+
+#anne {
+    margin-top: 4vh;
+}
+
+.section-superior .stars p br {        
+    display: none;
+}
+
+
+
+@media screen and (max-width: 375px){
+    
+    .section-superior article {
+        max-width: 300px;
+        text-align: center;
+        margin-left: -10vw;        
+    }
+
+    .section-superior article p {        
+        text-align: center;
+        width: 300px;
+    }
+
+    .section-superior article p span {        
+        margin-left: 40vw;
+    }
+
+    .section-superior .stars {        
+        margin-top: 60vh;
+        margin-left: -90vw;           
+    }
+
+    .section-superior .stars p{        
+        width: 200px;
+    }
+
+    .section-superior .stars p br {        
+        display: flex;
+    }
+
+    #review, #report, #best {
+        margin-left: 0vw;
+    }
+
+    .cards {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 100vh;
+        margin-left: -60vw;
+    }
+
+    .card {
+        max-width: 200px;
+    }
+
+    #colton {
+        margin-top: -180vh;
+        margin-left: 60vw;
+    }
+
+    #irene {
+        margin-top: -100vh;
+        margin-left: -75vw;
+    }
+
+    #anne {
+        margin-top: -20vh;
+        margin-left: -75vw;
+    }
+
+    #review img {
+        margin-left: 3vh;
+    }
+
+    #report img {
+        margin-left: 3vh;
+    }
+
+    #best img {
+        margin-left: 3vh;
+    }
+
+    /* .attribution {
+        width: 150px;
+    }     */
+    
+}

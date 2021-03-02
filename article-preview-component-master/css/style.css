@@ -1,0 +1,243 @@
+@font-face {
+    font-family: Manrope;
+    src: url('./../fuente/static/Manrope-Regular.ttf');
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    margin-top: 80vh;    
+    margin-right: 0vw;
+    position: absolute;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+body {
+    font-family: Manrope;
+    height: 100vh;
+    background-color: hsl(210, 46%, 95%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    height: 210px;
+    width: 600px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    
+}
+
+.card .imagen img {
+    height: 100%;
+    width: 250px;    
+    border-radius: 10px 0px 0px 10px;
+}
+
+.card .texto {
+    padding: 30px;
+}
+
+.texto header {
+    color: hsl(217, 19%, 35%);
+    font-weight: 900;
+}
+
+.texto section {
+    font-size: 11px;
+    margin-top: 10px;
+    color: hsl(214, 17%, 51%);
+}
+
+.texto footer {
+    display: flex;
+    justify-content: space-between;   
+    margin-top: 5px; 
+}
+
+.texto footer .avatar {
+    height: 30px;
+    width: 30px;
+    margin-top: 8px;
+    border-radius: 50%;
+}
+
+.texto footer .nombre {
+    font-size: 10px;
+    color: hsl(217, 19%, 35%);
+    font-weight: 900;
+    margin-right: 10vw;
+}
+
+.texto footer .fecha {
+    font-size: 10px;
+    color: hsl(214, 17%, 51%);
+    font-weight: 500;
+}
+
+.texto footer .share {
+    height: 15px;
+    width: 15px;
+    margin-top: 12px;
+    margin-right: 5px;
+    background-color: hsl(210, 46%, 95%);
+    border-radius: 50%;
+    padding: 7px;
+}
+
+.texto footer .share:hover {    
+    background-color: hsl(213, 21%, 74%);  
+    color: hsl(210, 46%, 95%); 
+}
+
+
+/* ========== tooltip ============= */
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    
+  }  
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 156px;
+    background-color: hsl(217, 19%, 35%);
+    color: hsl(210, 46%, 95%);
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 115%;
+    left: 50%;
+    margin-left: -80px;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  .tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  .tooltiptext img {
+      height: 14px;
+      width: 14px;
+      margin-left: 10px;      
+  }
+
+  .tooltiptext img:hover {
+    cursor: pointer;    
+  }
+
+  .gris {
+      background-color: hsl(217, 19%, 35%);
+  }
+  
+
+@media screen and (max-width: 575px){
+
+    main {
+        height: 450px;
+        width: 250px;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        border-radius: 10px;        
+    }
+
+    .card .texto {
+        padding: 10px;
+        margin-top: 40vh;
+        margin-left: -58vw;
+        width: 100%;
+    }
+
+    .card .imagen img {
+        height: 100%;
+        width: 250px;    
+        border-radius: 10px 10px 0px 0px;
+    }
+
+    .card .imagen {    
+        width: 100%;                   
+        margin-bottom: 50vh;
+        margin-right: 13vw;
+    }
+
+    .texto footer .share {
+       margin-right: 15px;
+    }
+   
+
+    .attribution { 
+        font-size: 11px; 
+        text-align: center; 
+        margin-top: 100vh;    
+        margin-right: 0vw;
+        position: absolute;
+    }
+    
+}
+
+@media screen and (max-width: 375px){
+
+    main {
+        height: 450px;
+        width: 250px;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        border-radius: 10px;        
+    }
+
+    .card .texto {
+        padding: 10px;
+        margin-top: 40vh;
+        margin-left: -80vw;
+        width: 100%;
+    }
+
+    .card .imagen {    
+        width: 100%;                   
+        margin-bottom: 50vh;
+    }
+
+    .card .imagen img {
+        height: 100%;
+        width: 250px;    
+        border-radius: 10px 10px 0px 0px;
+    }
+
+    .texto footer .share {
+       margin-right: 15px;
+    }
+   
+
+    .attribution { 
+        font-size: 11px; 
+        text-align: center; 
+        margin-top: 100vh;    
+        margin-right: 0vw;
+        position: absolute;
+    }
+    
+}
+
