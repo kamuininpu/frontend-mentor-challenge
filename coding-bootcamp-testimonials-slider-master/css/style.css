@@ -1,0 +1,32 @@
+@font-face {
+    font-family: Inter;
+    src: url('./../fuente/static/Inter-Regular.ttf');
+}
+
+.attribution { 
+    font-size: 11px; text-align: center; 
+    position: absolute;
+    margin-top: 100vh;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+body {
+    font-family: Inter, Arial, Helvetica, sans-serif;    
+    background-image: url('./../images/pattern-curve.svg'), url('./../images/pattern-quotes.svg'), url('./../images/pattern-bg.svg');
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: left 1vw top 80vh, left 18vw top 20vh, left 42vw top 1vh; 
+    background-size: 40%, 8%, 40%;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
