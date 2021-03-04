@@ -13,20 +13,47 @@
 }
 
 body {
-    font-family: Inter, Arial, Helvetica, sans-serif;    
+    font-family: Inter, Arial, Helvetica, sans-serif;        
     background-image: url('./../images/pattern-curve.svg'), url('./../images/pattern-quotes.svg'), url('./../images/pattern-bg.svg');
     background-repeat: no-repeat, no-repeat, no-repeat;
-    background-position: left 1vw top 80vh, left 18vw top 20vh, left 42vw top 1vh; 
+    background-position: left 1vw top 80vh, left 18vw top 20vh, left 50vw top 1vh; 
     background-size: 40%, 8%, 40%;   
     display: flex;
     justify-content: center;
     align-items: center;
-    
+}
 
+main {
+    margin-top: 5vh;
 }
 
 section {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+figure img {
+    height: 70vh;
+    width: 70vw;
+    width: auto;
+}
+
+article {
+    width: 40vw;
+}
+
+.comillas {
+    font-size: 28px;
+    font-weight: lighter;
+    color: hsl(240, 23%, 36%);
+}
+
+.nombre {
+    font-weight: 900;
+    color: hsl(240, 38%, 20%);
+}
+
+.profecion {
+    color: hsl(240, 18%, 77%);
 }
