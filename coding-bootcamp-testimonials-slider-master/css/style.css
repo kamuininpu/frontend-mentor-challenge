@@ -35,8 +35,7 @@ section {
 
 figure img {
     height: 70vh;
-    width: 70vw;
-    width: auto;
+    width: auto;    
 }
 
 article {
@@ -56,4 +55,26 @@ article {
 
 .profecion {
     color: hsl(240, 18%, 77%);
+}
+
+.oculto {
+    display: none;
+}
+
+.control {
+    height: 40px;
+    width: 90px;
+    background-color: rgb(255, 253, 253);
+    position: absolute;
+    border-radius: 30px;
+    margin-top: 74vh;
+    margin-left: 20vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0 1px 3px hsl(240, 16%, 20%);
+}
+
+.control img:hover {
+    cursor: pointer;
 }
