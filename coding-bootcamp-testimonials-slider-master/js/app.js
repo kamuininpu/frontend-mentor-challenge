@@ -14,7 +14,7 @@ const cargarDatos = () => {
     <section id="${0}">
         <article>
             <p class="comillas">${usuarios[0].texto}</p>
-            <p class="nombre">${usuarios[0].nombre}
+            <p class="nombre">${usuarios[0].nombre} <br>
                 <span class="profecion">${usuarios[0].carrera}</span>
             </p>
         </article>
@@ -64,7 +64,7 @@ const pintar = (usuario, key) => {
                 <section id="${key}">
                     <article>
                         <p class="comillas">${usuario.texto}</p>
-                        <p class="nombre">${usuario.nombre}
+                        <p class="nombre">${usuario.nombre} <br>
                             <span class="profecion">${usuario.carrera}</span>
                         </p>
                     </article>
