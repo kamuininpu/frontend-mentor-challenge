@@ -90,8 +90,8 @@ br {
         font-family: Inter, Arial, Helvetica, sans-serif;        
         background-image: url('./../images/pattern-curve.svg'), url('./../images/pattern-quotes.svg'), url('./../images/pattern-bg.svg');
         background-repeat: no-repeat, no-repeat, no-repeat;
-        background-position: left 10vw top 90vh, left 38vw top 60vh, left 15vw top 1vh; 
-        background-size: 60%, 20%, 70%;   
+        background-position: left 10vw top 95vh, left 38vw top 70vh, left 12vw top 5vh; 
+        background-size: 60%, 17%, 80%;   
         display: flex;
         justify-content: center;
         align-items: center;        
@@ -109,17 +109,22 @@ br {
 
     article {
         text-align: center;
-        margin-left: 30vw;
-        margin-top: 60vh;
+        margin-left: 0vw;
+        margin-top: 65vh;
         width: 70vw;
+    }
+
+    figure {
+        height: 50vh;
+        width: 70vw;  
+        margin-left: 10vw; 
+        margin-top: -30vh; 
+        position: absolute;
     }
 
     figure img {
         height: 50vh;
         width: 70vw;  
-        margin-left: -80vw; 
-        margin-top: -40vh; 
-        position: absolute;
     }
 
     .comillas {
@@ -151,8 +156,8 @@ br {
         background-color: rgb(255, 253, 253);
         position: absolute;
         border-radius: 30px;
-        margin-top: 25vh;
-        margin-left: 10vw;
+        margin-top: 22vh;
+        margin-left: 0vw;
         display: flex;
         justify-content: space-around;
         align-items: center;
