@@ -14,7 +14,7 @@
 
 footer {
     position: absolute;
-    margin-top: 120vh;
+    margin-top: 100vh;
 }
 
 body {
@@ -105,5 +105,60 @@ figure img {
 }
 
 .card.red, .card.yellow{
-    height: 150px;    
+    height: 150px;        
+}
+
+
+@media screen and (max-width: 375px){
+
+    .parrafo {
+        font-size: 12px;
+        color: hsl(229, 6%, 66%);
+        width: 250px;
+        margin-left: 20vw;
+    }
+
+    header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    header article {
+        height: 100px;
+        width: 400px;
+        text-align: center;
+        margin-left: 10vw;
+    }
+
+    main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: -20vh;
+        margin-left: -150vw;
+    }
+
+    .card.green {
+        margin-top: 120vh;
+        margin-left: 160vw;
+        position: absolute;
+    }
+
+    .double-card {
+        margin-top: 250vh;
+        margin-left: 160vw;
+        position: absolute;
+    }
+
+    .card.blue {
+        margin-top: 380vh;
+        margin-left: 160vw;
+        position: absolute;
+    }
+
+    footer {
+        position: absolute;
+        margin-top: 450vh;
+    }
 }
