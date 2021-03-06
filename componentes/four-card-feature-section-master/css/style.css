@@ -1,0 +1,109 @@
+@font-face {
+    font-family: Poppins;
+    src: url('./../fuente/Poppins-Regular.ttf');
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center;     
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+footer {
+    position: absolute;
+    margin-top: 120vh;
+}
+
+body {
+    font-family: Poppins;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header article {
+    height: 100px;
+    width: 400px;
+    text-align: center;
+}
+h1 {
+    color: hsl(229, 6%, 66%);
+    font-weight: lighter;
+}
+
+.subtitle {
+    font-weight: 900;
+    font-size: 18px;
+    margin-top: -3vh;
+}
+
+.parrafo {
+    font-size: 12px;
+    color: hsl(229, 6%, 66%);
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10vh;
+}
+
+.double-card {
+    padding: 15px;    
+}
+
+.double-card .yellow {
+    margin-top: 5vh;    
+}
+
+main .card {
+    width: 250px;
+}
+
+.card {
+    padding: 15px;    
+    box-shadow: 0px 7px 10px hsl(236, 36%, 85%);
+    border-radius: 5px;
+}
+
+.card.green {
+    border-top: 5px solid hsl(180, 62%, 55%);    
+}
+.card.red {
+    border-top: 5px solid hsl(0, 78%, 62%);    
+}
+.card.yellow {
+    border-top: 5px solid hsl(34, 97%, 64%);    
+}
+.card.blue {
+    border-top: 5px solid hsl(212, 86%, 64%);    
+}
+
+.titulo {
+    font-weight: bolder;
+}
+
+.texto {
+    color: hsl(229, 6%, 66%);
+    font-size: 12px;
+}
+
+figure img {
+    float: right;
+    height: 50px;
+    width: 50px;
+}
+
+.card.red, .card.yellow{
+    height: 150px;    
+}
