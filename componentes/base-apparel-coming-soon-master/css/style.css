@@ -18,10 +18,10 @@
 
 body {
     font-family: Josefin Sans;     
-    background-image: url('./../images/hero-desktop.jpg');  
-    background-repeat: no-repeat;
-    background-position: right -1vw top -1vh;
-    background-size: 40vw 102vh;       
+    background-image: url('./../images/bg-pattern-desktop.svg'), url('./../images/hero-desktop.jpg');  
+    background-repeat: no-repeat, no-repeat;
+    background-position: left 0 top 0, right -1vw top -1vh;
+    background-size: 61vw 100vh, 40vw 102vh;       
 }
 
 main {
