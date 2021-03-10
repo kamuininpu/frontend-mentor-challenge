@@ -221,6 +221,97 @@ button:active {
 }
 
 
+@media screen and (max-width: 375px){
+
+    body {        
+        background-image: url('./../images/hero-mobile.jpg');  
+        background-repeat: no-repeat;
+        background-position: right 0vw top 15vh;
+        background-size: 100vw 60vh; 
+    }
+
+    section {
+        margin-top: 70vh;
+    }
+
+    article {
+        width: 80vw;
+        text-align: center;               
+    }
+
+    .pink {
+        font-family: Jose Thin;    
+        font-size: 40px;    
+        color: hsl(0, 36%, 70%);
+        font-weight: 600;
+        letter-spacing: 1vw;         
+    }
+    
+    .black {
+        font-family: Josefin Sans;
+        font-size: 40px;
+        letter-spacing: 2vw;
+        font-weight: 800;
+    }
+    
+    .parrafo {
+        width: 80vw;
+        color: hsl(0, 36%, 70%);    
+    }
+
+    .email {
+        width: 75vw;
+    }
+
+    .email input {
+        height: 40px;
+        width: 65vw;
+        font-family: Josefin Sans;  
+        border-radius: 20px; 
+        border: 1px solid hsl(0, 36%, 70%); 
+        font-size: 14px;    
+        padding-left: 20px;    
+        outline:none !important;         
+    }
+
+    .email input:focus {                 
+        font-size: 14px;         
+        padding-left: 20px; 
+        border: 1px solid hsl(0, 70%, 56%);
+    }
+
+    .error {
+        background-image: url('./../images/icon-error.svg');
+        background-repeat: no-repeat;        
+        background-position: top 2vh left 61vw;
+    }
+
+    button {
+        cursor: pointer;
+        position: absolute;
+        margin-left: -10vw;
+        margin-top: 0;
+        background-image: linear-gradient(to left , hsl(0, 60%, 72%), hsl(0, 36%, 70%));
+        height: 44px;
+        width: 60px;
+        border-radius: 25px;
+        border: 0;
+        box-shadow: 0 7px 10px hsl(0, 36%, 70%); 
+        outline: none;   
+    }    
+    
+    .right {
+        margin-left: -3vw;
+    }
+
+    footer {    
+        margin-top: 18vh;
+        width: 70vw;
+    }
+    
+}
+
+
 
 
 
