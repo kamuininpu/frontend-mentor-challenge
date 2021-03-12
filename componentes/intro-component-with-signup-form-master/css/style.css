@@ -72,7 +72,8 @@ section article h1 {
     box-shadow: 0 6px 0px hsl(0, 46%, 57%); 
 }
 
-.formulario input {
+input {
+    border: 1px solid hsl(0, 15%, 87%);      
     width: 29vw;
     height: 8vh;
     margin-left: 2vw;
@@ -82,12 +83,11 @@ section article h1 {
     font-weight: 600;
     padding-left: 2vw;
     border-radius: 5px;   
-    outline: none;
-    border: 1px solid hsl(0, 15%, 87%);      
+    outline: none;        
 }
 
-.alert {            
-    border: 3px solid hsl(0, 100%, 74%);   
+.alert {
+    border: 1px solid hsl(0, 100%, 74%);   
     background-image: url('./../images/icon-error.svg');  
     background-repeat: no-repeat;    
     background-position: left 27vw top 2vh;
@@ -160,8 +160,7 @@ footer {
         background-size: 70vh;
     }
         
-    .alert {            
-        border: 3px solid hsl(0, 100%, 74%);   
+    .alert {                     
         background-image: url('./../images/icon-error.svg');  
         background-repeat: no-repeat;    
         background-position: left 64vw top 2vh;
