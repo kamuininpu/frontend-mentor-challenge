@@ -125,3 +125,51 @@ button:active {
     font-size: 13px;
     width: 15vw;
 }
+
+@media screen and (max-width: 375px) {
+
+    section {            
+        margin-top: 10vh;   
+        border-radius: 10px;      
+        width: 78vw;         
+    }
+
+    .abajo {
+        display: inline;
+        height: 100%;        
+    }
+
+    .segundo {        
+        width: 62vw;
+        height: 30vh;        
+        border-radius: 0  0 0 0;
+        margin-top: 10vh;
+    }
+
+    .tercero {        
+        width: 62vw;
+        height: 30vh;        
+        border-radius: 0  0 10px 10px;
+    }
+
+    .tercero p {
+        font-size: 13px;
+        width: 42vw;
+    }
+
+    .attribution { 
+        font-size: 11px; 
+        text-align: center; 
+        position: absolute;
+        margin-top: 75vh;
+        margin-left: -68vw;
+    }
+
+    button {
+        width: 56vw;
+        height: 7vh;               
+        margin-top: 1vh;
+    }
+
+}
+
