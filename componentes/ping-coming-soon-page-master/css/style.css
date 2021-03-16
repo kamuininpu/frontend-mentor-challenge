@@ -1,0 +1,133 @@
+@font-face {
+    font-family: Libre Franklin;
+    src: url('./../fuente/LibreFranklin-Regular.ttf');
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+body {
+    font-family: Libre Franklin;
+    display: flex;
+    justify-content: center;
+}
+
+section {
+    text-align: center;    
+}
+
+span {
+    font-size: 28px;    
+}
+
+.gray {
+    color: hsl(0, 0%, 59%);    
+}
+
+.black {
+    color: black;
+    font-weight: 900;
+}
+
+input {
+    border-radius: 20px;
+    height: 5vh;
+    width: 20vw;
+    outline: none;
+    border: 1px solid hsl(223, 100%, 88%);
+    padding-left: 1vw;
+}
+
+input::-webkit-input-placeholder {
+    color: hsl(223, 100%, 88%);    
+}
+
+button {
+    height: 6vh;
+    width: 9vw;
+    border-radius: 20px;
+    outline: none;
+    border: 0;
+    background-color: hsl(223, 87%, 63%);
+    color: white;
+    font-size: 10px;
+    cursor: pointer;
+    box-shadow: 0 2px 5px hsl(223, 87%, 63%, 0.9); 
+}
+
+button:active {
+    background-color: hsl(223, 49%, 66%);
+    box-shadow: 0 2px 5px rgba(18, 27, 49, 0.9); 
+}
+
+.imagen {
+    margin-top: 6vh;
+}
+
+
+.dashboard {
+    width: 35vw;
+    height: 40vh;
+}
+
+
+i {
+    color: hsl(223, 87%, 63%);
+    margin: 5px;    
+    border-radius: 100%;
+    padding: 5px;
+}
+
+i.fa-facebook-f {
+    padding: 5px 8px;
+}
+
+i.fa-instagram {
+    padding: 5px 6px;
+}
+
+i:hover {
+    background-color: hsl(223, 87%, 63%);
+    color: white;
+    cursor: pointer;
+}
+
+
+.copiright {
+    font-size: 10px;
+}
+
+br {
+    display: none;
+}
+
+
+@media screen and (max-width: 375px) {    
+
+    br {
+        display: flex;
+    }
+
+    input {        
+        width: 60vw;       
+        padding-left: 3vw;
+    }
+
+    button {        
+        width: 65vw;        
+        margin-top: 1vh;
+    }
+
+    .dashboard {
+        width: 70vw;
+        height: 40vh;
+    }
+    
+
+}
