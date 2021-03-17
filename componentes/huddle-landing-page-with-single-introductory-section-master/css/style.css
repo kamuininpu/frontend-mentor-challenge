@@ -1,0 +1,102 @@
+@font-face {
+    font-family: Poppins;
+    src: url('./../fuentes/Poppins-Regular.ttf');
+
+}
+
+@font-face {
+    font-family: Open Sans;
+    src: url('./../fuentes/OpenSans-Regular.ttf');
+}
+
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(227, 28%, 57%); 
+}
+
+
+body {
+    font-family: Poppins;
+    background-color: hsl(257, 40%, 49%);
+    background-image: url('./../images/bg-desktop.svg');
+    background-repeat: no-repeat;
+    background-size: 165vh;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    height: 8vh;
+}
+
+
+.mockup {
+    height: 68vh;
+    width: 48vw;    
+}
+
+h1 {
+    color: white;
+    font-size: 32px;
+    letter-spacing: 1px;
+}
+
+p {
+    color: whitesmoke;
+}
+
+button {
+    background-color: whitesmoke;
+    color: hsl(300, 69%, 71%);
+    height: 8vh;
+    width: 12vw;
+    outline: none;
+    border-radius: 30px;
+    border: none;
+    box-shadow: 0 0 10px hsl(300, 15%, 27%);
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: hsl(300, 69%, 71%);
+    color: whitesmoke;
+}
+
+.redes {
+    float: right;
+    margin-top: 28vh;
+    margin-right: 4vw;
+}
+
+i {
+    padding: 0 8px;
+    color: whitesmoke;
+    border: 1px solid whitesmoke;
+    border-radius: 100%;   
+    cursor: pointer; 
+}
+
+i:hover {
+    color: hsl(300, 69%, 71%);
+    border: 1px solid hsl(300, 69%, 71%);
+}
+
+i.fa-facebook-f {
+    padding: 7px 10px;
+}
+
+i.fa-twitter {
+    padding: 7px 7px;
+}
+
+i.fa-instagram {
+    padding: 7px 8px;
+}
