@@ -100,3 +100,49 @@ i.fa-twitter {
 i.fa-instagram {
     padding: 7px 8px;
 }
+
+@media screen and (max-width: 375px) {
+
+
+    body {       
+        background-image: url('./../images/bg-mobile.svg');
+        background-size: 80vh;
+    }
+    
+    main {
+        display: inline;        
+    }
+
+    .mockup {
+        height: 68vh;
+        width: 75vw;    
+    }
+
+    h1 {     
+        font-size: 22px;        
+    }
+
+    .texto {
+        text-align: center;        
+    }
+
+    p {        
+        width: 70vw;
+        margin-left: 12vw;
+    }
+
+    button {      
+        height: 8vh;
+        width: 40vw;  
+        margin-left: 4vw;      
+    }
+
+    .redes {        
+        margin-top: 12vh;
+        margin-right: 35vw;
+    }
+
+    .attribution { 
+        margin-top: 25vh;
+    }
+}
